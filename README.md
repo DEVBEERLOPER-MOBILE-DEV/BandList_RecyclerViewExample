@@ -20,8 +20,7 @@ RecyclerView Android
 
 ## 4.	Obtener el objeto RecyclerView en el activity que controla el layout 
 
-`
-
+` 
 private RecyclerView bandsRecyclerView;
 
 
@@ -54,12 +53,9 @@ private RecyclerView.LayoutManager layoutManager;
 ## 7.	Inicializar en el onCreate el LayoutManager y asignárselo al recyclerview
 
 `
-
 layoutManager = new LinearLayoutManager(this);
 
 bandsRecyclerView.setLayoutManager(layoutManager);
-
-
 
 `
 
